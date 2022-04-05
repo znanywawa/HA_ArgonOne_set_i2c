@@ -1,8 +1,8 @@
 {
   "name": "ArgonOne - Debian GNU/Linux 11 (bullseye)",
   "version": "0.2",
-  "slug": "local_argon_one_temp",
-  "description": "Actively keeping your Argon One cool.",
+  "slug": "argon_one_temp_edited",
+  "description": "Actively keeping your Argon One cool",
   "arch": ["armhf", "armv7", "aarch64"],
   "auth_api": true,
   "homeassistant_api": true,
