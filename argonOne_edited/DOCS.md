@@ -1,6 +1,8 @@
 # Configuration
 
-Choose Celsius or Fahrenheit.
+## I2C bus configuration
+
+Set I2C bus to be used.
 
 - **i2cDevice** - Configures which I2C bus should be scanned for Argon One (available options: 1, 2 or 3). 
 
