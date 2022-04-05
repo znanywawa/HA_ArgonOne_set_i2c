@@ -1,0 +1,33 @@
+{
+  "name": "ArgonOne - Debian GNU/Linux 11 (bullseye)",
+  "version": "0.2",
+  "slug": "local_argon_one_temp",
+  "description": "Actively keeping your Argon One cool.",
+  "arch": ["armhf", "armv7", "aarch64"],
+  "auth_api": true,
+  "homeassistant_api": true,
+  "hassio_role": "homeassistant",
+  "hassio_api": true,
+  "devices": ["/dev/i2c-1", "/dev/i2c-2", "/dev/i2c-3"],
+  "map": ["config", "ssl", "addons", "backup", "share", "media"],
+  "options": {
+    "CorF": "F",
+	"i2cDevice": "1",
+    "LowRange": 130,
+    "MediumRange": 140,
+    "HighRange": 150,
+    "QuietProfile": true,
+    "Create a Fan Speed entity in Home Assistant": false,
+    "Log current temperature every 30 seconds": true
+  },
+  "schema": {
+    "CorF": "str",
+	"i2cDevice": "str",
+    "LowRange": "int(0,255)",
+    "MediumRange": "int(0,255)",
+    "HighRange": "int(0,255)",
+    "QuietProfile": "bool",
+    "Create a Fan Speed entity in Home Assistant": "bool",
+    "Log current temperature every 30 seconds": "bool"
+  }
+}
