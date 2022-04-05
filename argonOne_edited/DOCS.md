@@ -4,7 +4,7 @@ Choose Celsius or Fahrenheit.
 
 - **i2cDevice** - Configures which I2C bus should be scanned for Argon One (available options: 1, 2 or 3). 
 
-![image](https://raw.githubusercontent.com/adamoutler/HassOSArgonOneAddon/main/gitResources/Configuration.png)
+![image](https://user-images.githubusercontent.com/62244838/161707733-20389fc7-d9f7-46f4-ac33-46234923e069.png)
 
 ## Celsius or Fahrenheit
 
